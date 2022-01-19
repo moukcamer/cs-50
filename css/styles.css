@@ -12,6 +12,7 @@ input[type="image" i] {
 #nav-list {
   margin-top: 10px;
 }
-li {
-  text-align: right;
+li a {
+  display: block;
+  padding= 5px;
 }
