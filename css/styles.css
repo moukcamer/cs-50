@@ -1,1 +1,8 @@
 
+#image {
+  object-position: center;
+  blackground-color:white;
+}
+#nav-list {
+  margin-top: 10px;
+}
