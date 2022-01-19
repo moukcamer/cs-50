@@ -1,8 +1,17 @@
 
 #image {
   object-position: center;
-  blackground-color:white;
+}
+input[type="image" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: pointer;
+    padding: initial;
+    border: initial;
 }
 #nav-list {
   margin-top: 10px;
+}
+li {
+  text-align: right;
 }
