@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
  <head>
      <title>
          Search
      </title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
  </head>
 <body>
+ <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+       <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-upper-right">
+             <li id="navSearchButton">
+              <a href="#" onclick="  "> Search</a>
+            </li>
+            <li id="navImageButton">
+              <a href="#"> Image</a>
+            </li>
+            <li id="navAdavncedSearchButton">
+              <a href="#"> Advanced Search</a>
+            </li>
+        </ul>
+       </div>
+     </div>
+  </nav>
+ </header>
     <form action="https://google.com/search">
         <input type="text" name="q">
         <input type="submit" value="Google Search">
