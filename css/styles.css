@@ -15,4 +15,5 @@ input[type="image" i] {
 li a {
   display: block;
   padding: 5px;
+  list-style: none;
 }
