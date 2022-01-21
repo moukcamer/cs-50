@@ -1,14 +1,13 @@
 
-#image {
-  object-position: center;
+div {
+  display: flex;
+  justify-content: center;
 }
-input[type="image" i] {
-    appearance: none;
-    background-color: initial;
-    cursor: pointer;
-    padding: initial;
-    border: initial;
+
+img{
+  width: 60%;
 }
+
 #nav-list {
   margin-top: 10px;
 }
