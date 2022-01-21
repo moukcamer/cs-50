@@ -18,3 +18,13 @@ ul li a {
   list-style-type: none;
   text-decoration: none;
 }
+
+element.style {
+}
+.lnXdpd {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
