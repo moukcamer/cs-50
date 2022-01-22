@@ -19,3 +19,46 @@ element.style {
     object-position: center bottom;
     width: auto;
 }
+
+element.style {
+}
+.z1asCe svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+user agent stylesheet
+svg:not(:root) {
+    overflow: hidden;
+}
+.QCzoEc {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+}
+.z1asCe {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
