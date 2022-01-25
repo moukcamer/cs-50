@@ -13,8 +13,8 @@ ul li a {
 element.style {
 }
 .lnXdpd {
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 25%;
+    max-width: 25%;
     object-fit: contain;
     object-position: center bottom;
     width: auto;
@@ -28,7 +28,7 @@ input[type="submit"] {
     font-family: arial,sans-serif;
     font-size: 14px;
     margin: 11px 4px;
-    padding: 0 16px;
+    padding: 11px 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
@@ -49,14 +49,6 @@ input[type=text] {
   background-color: transparent;
 }
 
-input[class=ABC, type=text] {
-    border-radius: 1px;
-    border: 1px solid yellow;
-    border-top: 1px solid #c0c0c0;
-    font-size: 13px;
-    height: 25px;
-    padding: 1px 8px;
-    
-}
+
 
 
