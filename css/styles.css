@@ -49,7 +49,10 @@ input[type=text] {
   background-color: transparent;
 }
 
-
+label {
+  width: 150px;
+  text-align: right;
+}
 
 
 
