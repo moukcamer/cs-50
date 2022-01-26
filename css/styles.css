@@ -38,17 +38,25 @@ input[type="submit"] {
 }
 input[type=text] {
   width: 50%;
-  padding: 0;
+  padding: 1px 8px;
   margin: 0;
   box-sizing: border-box;
   border: 1px solid red;
   border-radius: 4px;
   display: flex;
-  height: 20px;
-  font-size: 20px;
+  height: 25px;
+  font-size: 13px;
   background-color: transparent;
 }
 
+.jfk-textinput {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
 
 
 
