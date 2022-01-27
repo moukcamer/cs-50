@@ -30,6 +30,27 @@
     cursor: pointer;
     user-select: none;
 }
+        fieldset{
+            background-color:white;
+            border: none;
+            border-radius: 2px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            padding: 0 .625em;
+        }
+
+        label{
+            cursor: pointer;
+            display: inline-block;
+            padding: 3px 6px;
+            text-align: right;
+            width: 150px;
+            vertical-align: top;
+        }
+
+        input{
+            font-size: inherit;
+        }
  </style>
  <head>
      <title>
@@ -51,24 +72,25 @@
       <p> Find pages with ...</p>
       
        <form action="https://www.google.com/advanced_search" method= "get">
-         <br>
+        <fieldset>
+         <p>
               <label for="all these words:">all these words:</label>
-              <input type="text" id="all these words:" name="all theses words:">
-        </br>
-        <br>
+              <input type="text" id="all these words:" name="all theses words:" align="left">
+        </p>
+        <p>
               <label for="this exact word or phrase:">this exact word or phrase:</label>
-             <input type="text" id="this exact word or phrase:" name="this exact word or phrase:">
-          </br>
-        <br>
+             <input type="text" id="this exact word or phrase:" name="this exact word or phrase:" align="left">
+          </p>
+        <p>
               <label for="any of  these words:">any of these words:</label>
-              <input  type="text" id="any of these words:" name="any of theses words:">
-          </br>
-        <br>
+              <input  type="text" id="any of these words:" name="any of theses words:"  align="left">
+          </p>
+        <p>
               <label for="none of  these words:">none of these words:</label>
-              <input type="text" id="none of these words:" name="none of theses words:">
-       </br>		     
-         <input class="jfk-button" type="submit" value="Advanced Search" style="float:right" >
-        
+              <input type="text" id="none of these words:" name="none of theses words:"  align="left">
+       </p>		     
+         <input type="submit" value="Advanced Search" style="float:right" >
+       </fieldset> 
      </form>
  </body>
 </html>
