@@ -43,7 +43,6 @@ input[type="submit"] {
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
-    float: right;
 }
 
 label {
