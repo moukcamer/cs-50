@@ -20,20 +20,6 @@ element.style {
     width: auto;
 }
 
-input[type="submit"] {
-    background-color: blue;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: white;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 11px 16px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-}
 
 label {
   width: 150px;
