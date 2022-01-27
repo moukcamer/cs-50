@@ -21,7 +21,7 @@ element.style {
 }
 
 input[type="submit"] {
-    background-color: green;
+    background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: blue;
@@ -43,8 +43,6 @@ input[type="submit"] {
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
-    background-color: blue;
-    color: white;
 }
 
 
