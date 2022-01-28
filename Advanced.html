@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+  input[type=text] {
+  width: 50%;
+  padding: 1px 8px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  height: 36px;
+  font-size: 13px;
+  background-color: transparent;
+}
+  input[type="submit"] {
+    background-color: blue;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: white;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 11px 16px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+        fieldset{
+            background-color:white;
+            border: none;
+            border-radius: 2px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            padding: 0 .625em;
+        }
 
-<head>
-    <title>Advanced Search</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-</head>
+        label{
+            cursor: pointer;
+            display: inline-block;
+            padding: 3px 6px;
+            text-align: right;
+            width: 150px;
+            vertical-align: top;
+        }
 
+        input{
+            font-size: inherit;
+        }
+ </style>
+ <head>
+     <title>
+         Advanced Search
+     </title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+   <div class="img-container">
+    <img class="Xdpd" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" height="25" width="75"/>
+   
+   </div>
+          
+    <h1 style = "color: red">
+      Advanced Search
+      </h1>
 <body>
     <div class="graybar">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id=image>
@@ -15,22 +79,27 @@
             </a>
         </div>
     </div>
-    <div class="label">Advanced Search</div>
-    <h3 style="font-weight:normal">Find pages with...</h3>
-    <form action="https://google.com/search">
-        <input class="margin" value autofocus="autofocus" id="xX4UFf" name="as_q" type="text">
-        <label for="xX4UFf" class="float">all these words:</label>
-        <br>
-        <input class="margin" value autofocus="autofocus" id="CwYCWc" name="as_epq" type="text">
-        <label for="CwYCWc" class="float">this exact word or phrase:</label>
-        <br>
+	
+	 <p> Find pages with ...</p>
+      
+       <form action="https://google.com/search">
+        <fieldset>
+		
+		<label for="xX4UFf" class="float">all these words:</label>
+		<input class="margin" value autofocus="autofocus" id="xX4UFf" name="as_q" type="text">
+        
+		 <label for="CwYCWc" class="float">this exact word or phrase:</label>
+		<input class="margin" value autofocus="autofocus" id="CwYCWc" name="as_epq" type="text">
+       
+		 <label for="mSoczb" class=float>any of these words:</label>
 		<input class="margin" value autofocus="autofocus" id="mSoczb" name="as_oq" type="text">
-        <label for="mSoczb" class=float>any of these words:</label>
-        <br>
-        <input class="margin" value autofocus="autofocus" id="t2dX1c" name="as_eq" type="text">
-        <label for="t2dX1c" class="float">none of these words:</label>
-        <br>
-        <input type="submit">
-    </form>
-</body>
-</htmL>
+       
+		 <label for="t2dX1c" class="float">none of these words:</label>
+		<input class="margin" value autofocus="autofocus" id="t2dX1c" name="as_eq" type="text">
+     
+		<input type="submit" value="Advanced Search" style="float:right" >
+	</fieldset> 
+     </form>
+ </body>
+</html
+	
